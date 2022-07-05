@@ -19,12 +19,12 @@ function fetchImage() {
       //generates the HTML needed to display the random image on the screen and adds it to the div element with the id of response.
       output += `
       <div>
-        <h2>Author: ${randomImages[i].author}</h2>
-        <p>Image Id: ${randomImages[i].id}</p>
-        <p>Width: ${randomImages[i].width}</p>
-        <p>Height: ${randomImages[i].height}</p>
-        <p><a href="${randomImages[i].url}">Download Link!</a></p>
-        <img src="https://picsum.photos/id/${randomImages[i].id}/${randomImages[i].width}/${randomImages[i].height}" width="${randomImages[i].width}" height="${randomImages[i].height}" id="center">
+        <h2 class="center">Author: ${randomImages[i].author}</h2>
+        <p class="center">Image Id: ${randomImages[i].id}</p>
+        <p class="center">Width: ${randomImages[i].width}</p>
+        <p class="center">Height: ${randomImages[i].height}</p>
+        <p class="center"><a href="${randomImages[i].url}">Download Link!</a></p>
+        <img src="https://picsum.photos/id/${randomImages[i].id}/${randomImages[i].width}/${randomImages[i].height}" width="${randomImages[i].width}" height="${randomImages[i].height}" class="center">
 
       </div>
       `;
