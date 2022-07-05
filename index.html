@@ -1,0 +1,28 @@
+<!--1. Create a new local project that uses Vite, Prettier and ESLint
+- ESLint should use either the Google or AirBnB styleguide, which you can choose during setup
+2. Build a web page that, on load, uses the picsum.photos list API to:
+- Get 100 images
+- Choose a random image from the returned list
+- Displays the image, author, and image ID on the page
+3. The HTML, CSS, and JavaScript for the web page should be separate files. Use JavaScript module synta (ES Modules) for your JavaScript
+4. Submit your code by pushing it to GitHub, ensuring that there are no Prettier or ESLint errors. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser and Third Party APIs Assignment</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Random Images at the click of a button!</h1>
+      <button id="fetchImage">Get New Image</button>
+    </div>
+    <hr />
+    <div id="response"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
