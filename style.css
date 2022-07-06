@@ -38,4 +38,8 @@
     color: white;
     background-color: rgb(37, 149, 138);
   }
+  img {
+    height: 400px;
+    width: 500px;
+  }
   
